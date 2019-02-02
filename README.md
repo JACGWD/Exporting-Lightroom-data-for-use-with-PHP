@@ -17,5 +17,7 @@ Of course, the scripts could be edited to generate a SQL file to upload the same
 
 This repository contains two files:
 
-1. *page-export-script.php* which is the code that is pasted into LR/Transport's "Companion Files" tab. This exports only a few pieces of information (title, caption, etc) from Lightroom. The plugin can access many more than what is demoed here. This is what is known as a "detail" page.
-2. *thumbnails-page-export-script.php* is the code that is pasted into LR/Transport's "Summary File" tab. It's role is to build a thumbnails page complete with navigation, images and text links. This corresponds to the "master" file of a "master/detail" set of pages.
+1. *page-export-script.php* which is the code that is pasted into LR/Transport's *Companion Files* tab. This exports only a few pieces of information (title, caption, etc) from Lightroom. The plugin can access many more than what is demoed here. This is what is known as a "detail" page.
+2. *thumbnails-page-export-script.php* is the code that is pasted into LR/Transport's *Summary File* tab. It's role is to build a thumbnails page complete with navigation, images and text links. This corresponds to the "master" file of a "master/detail" set of pages.
+
+See this other [JACGWD repository for more information on master/detail page relationships](https://github.com/JACGWD/Basic-HTML).
