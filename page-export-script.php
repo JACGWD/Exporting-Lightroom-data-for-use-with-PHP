@@ -6,6 +6,11 @@ $description="{caption}";
 
 $keywords="{keywordTagsForExport}";
 
+
+// code above this line is used inside <head> tags. Code below is used in <body>.
+
+
+
 $filename="{fileNameNoExtension}";
 
 $filenameExt="{fileName}";
