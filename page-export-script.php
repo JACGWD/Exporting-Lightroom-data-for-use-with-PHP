@@ -1,7 +1,5 @@
 <?php
 
-// require ($_SERVER["DOCUMENT_ROOT"]."/_web_app/config.php");
-
 $title="{title}";
 
 $description="{caption}";
