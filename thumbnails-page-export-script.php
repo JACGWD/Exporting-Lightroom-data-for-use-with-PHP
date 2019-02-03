@@ -26,8 +26,6 @@
 
      <!-- for each image start here -->
 
-   <!-- <li><a href="<?php echo $filename . ".php" ?>"<?php echo $filename ?></a> -->
-
       <li><a href="{fileNameNoExtension}.php"><img src="img/{fileNameNoExtension}.jpg" width="200" alt="{title}"></a></li>
 
    <!-- for each image ends here -->
