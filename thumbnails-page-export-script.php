@@ -11,7 +11,7 @@
 
      <a href="{fileNameNoExtension}.php"><img src="img/{fileNameNoExtension}_200px.jpg" width="200" alt="{title}" /></a>
 
-     <figcaption>{description}</figcaption>
+     <figcaption>{caption}</figcaption>
 
      </figure>
 

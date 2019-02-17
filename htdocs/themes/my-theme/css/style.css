@@ -1,0 +1,680 @@
+/* ==========================================================================
+
+  DEFAULT CSS version 0.92 BETA  | DEMO FOR PEDAGOGICAL PURPOSES | (CC BY 4.0)
+
+  Licensed under Creative Commons License Attribution 4.0 International
+  (CC BY 4.0)
+
+  You are free to:
+
+  SHARE — copy and redistribute the material in any medium or format
+
+  ADAPT — remix, transform, and build upon the material for any purpose, even commercially.
+  The licensor cannot revoke these freedoms as long as you follow the license terms.
+
+
+
+  UNDER THE FOLLOWING TERMS:
+
+  ATTRIBUTION — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+
+  ATTRIBUTION — Please do not delete this section (entire comment block at the top of the stylesheet).
+
+  No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
+
+  Please attribute to:
+
+  Eric Girouard
+  eric@heliomedia.com
+  http://www.heliomedia.com
+
+  http://creativecommons.org/licenses/by/4.0/
+
+
+  Place font @import rules at top of the CSS stylesheet. They will not work reliably if placed elsewhere in this file.
+  Best practice is to use the <link> tag in the HTML <head> instead. @import rules slow down the browser.
+   ========================================================================== */
+
+  /* @import url(); */
+
+
+  /*
+
+1. Mobile First - GLOBAL styles that apply to all screen sizes
+	  1.1 - Boxes
+	  1.2 - Backgrounds
+	  1.3 - Typography
+	  1.4 - Colors
+	  etc... arrange to your liking.
+
+2. Media Queries - Set breakpoints according to your design's needs
+
+  Resolutions (edit sa necessary according to your design)
+	48em (768px) and larger
+	64em (1024px) and larger
+	85.375em (1366px) and larger
+	100em (1600px) and larger
+	120em (1920px) and larger
+	160em (2560px) and larger
+
+All the min-width media queries follow this pattern:
+
+XXem (YYYpx) and larger
+	XXem Default
+	XXem Default Retina
+	XXem Default Retina 3x
+	XXem Portrait
+	XXem Portrait Retina
+	XXem Portrait Retina 3x
+
+
+
+3. Utility Classes - solutions for common tasks or problems.
+  3.1 - .browsehappy: for styling a div that appears in older versions of Internet Explorer prompting the user to update their browser. From the HTML 5 Boilerplate project.
+  3.2 - .hide-text for image replacements
+  3.3 - .clearfix: to contain floats. Use if overflow: auto; on the parent element doesn't work well.
+  3.4 - .currentpage: to highlight the current page in the navigation menu
+
+
+
+4. Print Media Query
+  4.1 Styles for the printed page (laser printer). Text should be black and interactive items set to display: none;
+
+  */
+
+
+/* ==========================================================================
+
+
+   Mobile First Philosophy: Start by coding CSS for a small screen first (mobile phone) and make your way up to bigger screens. In order: mobile, tablet, desktop, HD.
+
+   Baseline CSS for all size viewports.
+
+
+   Write your default CSS rules here. They will apply ("cascade") to everything below.
+
+
+   - - - -
+
+
+ Use numbered sections to organize your CSS. Organize in a way you find intuitive.
+
+ Code elements in the order you will see them on the page. Makes finding rules easier and faster.
+ For example: html, body, header, nav, main, aside, footer. Etc.
+
+
+1. Boxes
+2. Backgrounds
+3. Typography
+4. Colors
+5. NAV
+6. Form
+   ========================================================================== */
+
+body {background-color: #eee;}
+main {background-color: #fff; padding: 1em; border: 1px solid #444; width:95%; margin: 0 auto;}
+
+img {max-width: 100%; height: auto;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---- 1. Boxes  -------  */
+
+
+
+
+/* ---- 2. Backgrounds -------  */
+
+
+
+
+
+
+/* ----  3. Typography ---- */
+
+
+
+
+/* ----  4. Colors ---- */
+
+
+
+
+/* ----  5. NAV ---- */
+
+ul.navigation {display: none;}
+
+
+/* Don't forget LoVeHA! Rule */
+
+
+
+/* ----  6. Form ---- */
+
+form > input, form > textarea, form > label {display: block; margin: 0 0 1em 0;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* ========================== END MOBILE FIRST ===========================  */
+
+
+
+
+
+
+
+
+/* ==========================================================================
+
+	*****  START VISUAL MEDIA QUERIES *****
+
+   Media Queries start here. Use them to tweak your design as the screen size gets bigger.
+
+   If you want to change something that appears across all browser screen sizes, code it above, not below this section.
+
+   Anything you write in the CSS stylesheet will inherited by ("cascade to") media queries written below.
+
+   In other words, if your default paragraph color is blue (in the baseline CSS) and you set the paragraph color rule to red in the first media query, then the media queries written below will also display the text as red. You do not need to add the red rule again, it gets inherited.
+
+   Remember, the last CSS rule wins.
+
+   ========================================================================== */
+
+
+
+
+
+
+/* ==========================================================================
+   CSS for tablets (768px and above)  |  Feel free to adjust as necessary.
+   ========================================================================== */
+
+@media only screen and (min-width: 48em) {
+
+
+
+}
+
+
+@media only screen
+and (min-width: 48em)
+and (-webkit-min-device-pixel-ratio: 2),
+only screen
+and (min-width: 48em)
+and (min-resolution: 192dppx) {
+
+    /* Retina-specific stuff here */
+}
+
+
+
+@media only screen
+and (min-width: 48em)
+and (-webkit-min-device-pixel-ratio: 3),
+only screen
+and (min-width: 48em)
+and (min-resolution: 288dppx) {
+
+    /* iPhone 6+ / Retina-specific stuff here */
+}
+
+
+
+@media only screen and (min-width: 48em)  and (orientation : portrait) {
+
+/* CSS rules go here */
+
+}
+
+
+@media only screen
+and (min-width: 48em)
+and (orientation : portrait)
+and (-webkit-min-device-pixel-ratio: 2),
+only screen
+and (min-width: 48em)
+and (orientation : portrait)
+and (min-resolution: 192dppx) {
+
+    /* Retina-specific stuff here */
+}
+
+
+@media only screen
+and (min-width: 48em)
+and (orientation : portrait)
+and (-webkit-min-device-pixel-ratio: 3),
+only screen
+and (min-width: 48em)
+and (orientation : portrait)
+and (min-resolution: 288dppx) {
+
+    /* iPhone 6+ / Retina-specific stuff here */
+}
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   CSS for desktops (1024px and above)   |  Feel free to adjust as necessary.
+   ========================================================================== */
+
+@media only screen and (min-width: 64em) {
+
+
+
+
+}
+
+@media only screen
+and (min-width: 64em)
+and (-webkit-min-device-pixel-ratio: 2),
+only screen
+and (min-width: 64em)
+and (min-resolution: 192dppx) {
+
+    /* Retina-specific stuff here */
+}
+
+@media only screen
+and (min-width: 64em)
+and (-webkit-min-device-pixel-ratio: 3),
+only screen
+and (min-width: 64em)
+and (min-resolution: 288dppx) {
+
+    /* iPhone 6+ / Retina-specific stuff here */
+}
+
+
+@media only screen  and (min-width: 64em) and (orientation : portrait) {
+
+/* CSS rules go here */
+
+}
+
+@media only screen
+and (min-width: 64em)
+and (orientation : portrait)
+and (-webkit-min-device-pixel-ratio: 2),
+only screen
+and (min-width: 64em)
+and (orientation : portrait)
+and (min-resolution: 192dppx) {
+
+    /* Retina-specific stuff here */
+}
+
+@media only screen
+and (min-width: 64em)
+and (orientation : portrait)
+and (-webkit-min-device-pixel-ratio: 3),
+only screen
+and (min-width: 64em)
+and (orientation : portrait)
+and (min-resolution: 288dppx) {
+
+    /* iPhone 6+ / Retina-specific stuff here */
+}
+
+/* ==========================================================================
+   CSS for desktops (1366px and above)   |  Feel free to adjust as necessary.
+   ========================================================================== */
+
+@media only screen and (min-width: 85.375em) {
+
+
+
+}
+
+
+@media only screen
+and (min-width: 85.375em)
+and (-webkit-min-device-pixel-ratio: 2),
+only screen
+and (min-width: 85.375em)
+and (min-resolution: 192dppx) {
+
+    /* Retina-specific stuff here */
+}
+
+@media only screen
+and (min-width: 85.375em)
+and (-webkit-min-device-pixel-ratio: 3),
+only screen
+and (min-width: 85.375em)
+and (min-resolution: 288dppx) {
+
+    /* iPhone 6+ / Retina-specific stuff here */
+}
+
+
+
+@media only screen and (min-width: 85.375em) and (orientation : portrait) {
+
+/* CSS rules go here */
+
+}
+
+@media only screen
+and (min-width: 85.375em)
+and (orientation : portrait)
+and (-webkit-min-device-pixel-ratio: 2),
+only screen
+and (min-width: 85.375em)
+and (orientation : portrait)
+and (min-resolution: 192dppx) {
+
+    /* Retina-specific stuff here */
+}
+
+@media only screen
+and (min-width: 85.375em)
+and (orientation : portrait)
+and (-webkit-min-device-pixel-ratio: 3),
+only screen
+and (min-width: 85.375em)
+and (orientation : portrait)
+and (min-resolution: 288dppx) {
+
+    /* iPhone 6+ / Retina-specific stuff here */
+}
+
+
+/* ==========================================================================
+   CSS for desktops (1600px and above)   |  Feel free to adjust as necessary.
+   ========================================================================== */
+
+@media only screen and (min-width: 100em) {
+
+
+
+}
+
+@media only screen
+and (min-width: 100em)
+and (-webkit-min-device-pixel-ratio: 2),
+only screen
+and (min-width: 100em)
+and (min-resolution: 192dppx) {
+
+    /* Retina-specific stuff here */
+}
+
+
+@media only screen
+and (min-width: 100em)
+and (-webkit-min-device-pixel-ratio: 3),
+only screen
+and (min-width: 100em)
+and (min-resolution: 288dppx) {
+
+    /* iPhone 6+ / Retina-specific stuff here */
+}
+
+@media only screen and (min-width: 100em) and (orientation : portrait) {
+
+/* CSS rules go here */
+
+}
+
+@media only screen
+and (min-width: 100em)
+and (orientation : portrait)
+and (-webkit-min-device-pixel-ratio: 2),
+only screen
+and (min-width: 100em)
+and (orientation : portrait)
+and (min-resolution: 192dppx) {
+
+    /* Retina-specific stuff here */
+}
+
+
+@media only screen
+and (min-width: 100em)
+and (orientation : portrait)
+and (-webkit-min-device-pixel-ratio: 3),
+only screen
+and (min-width: 100em)
+and (orientation : portrait)
+and (min-resolution: 288dppx) {
+
+    /* iPhone 6+ / Retina-specific stuff here */
+}
+
+
+/* ==========================================================================
+   CSS for HD desktops (1920px (27" iMac is 2560px) and above)   |  Feel free to adjust as necessary.
+   ========================================================================== */
+
+@media only screen and (min-width: 120em) {
+
+/* CSS rules go here */
+
+}
+
+
+@media only screen
+and (min-width: 120em)
+and (-webkit-min-device-pixel-ratio: 2),
+only screen
+and (min-width: 120em)
+and (min-resolution: 192dppx) {
+
+    /* Retina-specific stuff here */
+}
+
+
+@media only screen
+and (min-width: 120em)
+and (-webkit-min-device-pixel-ratio: 3),
+only screen
+and (min-width: 120em)
+and (min-resolution: 288dppx) {
+
+    /* iPhone 6+ / Retina-specific stuff here */
+}
+
+
+
+@media only screen and (min-width: 120em) and (orientation : portrait) {
+
+/* CSS rules go here */
+
+}
+
+@media only screen
+and (min-width: 120em)
+and (orientation : portrait)
+and (-webkit-min-device-pixel-ratio: 2),
+only screen
+and (min-width: 120em)
+and (orientation : portrait)
+and (min-resolution: 192dppx) {
+
+    /* Retina-specific stuff here */
+}
+
+
+@media only screen
+and (min-width: 120em)
+and (orientation : portrait)
+and (-webkit-min-device-pixel-ratio: 3),
+only screen
+and (min-width: 120em)
+and (orientation : portrait)
+and (min-resolution: 288dppx) {
+
+    /* iPhone 6+ / Retina-specific stuff here */
+}
+
+
+/* ==========================================================================
+   CSS for HD desktops (2560px (2014 27" iMac is 5120px) and above)   |  Feel free to adjust as necessary.
+   ========================================================================== */
+
+@media only screen and (min-width: 160em) {
+
+/* CSS rules go here */
+
+}
+
+@media only screen
+and (min-width: 160em)
+and (-webkit-min-device-pixel-ratio: 2),
+only screen
+and (min-width: 160em)
+and (min-resolution: 192dppx) {
+
+    /* Retina-specific stuff here */
+}
+
+
+@media only screen
+and (min-width: 160em)
+and (-webkit-min-device-pixel-ratio: 3),
+only screen
+and (min-width: 160em)
+and (min-resolution: 288dppx) {
+
+    /* iPhone 6+ / Retina-specific stuff here */
+}
+
+
+
+@media only screen and (min-width: 160em) and (orientation : portrait) {
+
+/* CSS rules go here */
+
+}
+
+
+@media only screen
+and (min-width: 160em)
+and (orientation : portrait)
+and (-webkit-min-device-pixel-ratio: 2),
+only screen
+and (min-width: 160em)
+and (orientation : portrait)
+and (min-resolution: 192dppx) {
+
+    /* Retina-specific stuff here */
+}
+
+@media only screen
+and (min-width: 160em)
+and (orientation : portrait)
+and (-webkit-min-device-pixel-ratio: 3),
+only screen
+and (min-width: 160em)
+and (orientation : portrait)
+and (min-resolution: 288dppx) {
+
+    /* iPhone 6+ / Retina-specific stuff here */
+}
+
+
+
+/* ================ END VISUAL MEDIA QUERIES =============== */
+
+
+
+  /* ========== Utility Classes ========== */
+
+
+/*  Browse Happy prompt for people still using IE6 (argh). From HTML 5 Boilerplate. */
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+
+
+  /*
+      .hide-text for image replacements
+      See: http://www.zeldman.com/2012/03/01/replacing-the-9999px-hack-new-image-replacement/
+  */
+
+
+.hide-text {
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+
+.currentpage {font-weight: bold; text-decoration: underline; color: #FC9;}
+
+
+
+
+
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request: h5bp.com/r
+   ========================================================================== */
+
+@media print {
+
+}
