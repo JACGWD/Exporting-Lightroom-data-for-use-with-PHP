@@ -89,7 +89,7 @@ Choose one of the following files. Disable the other with a comment.
 
      <h1><?php echo $h1 ?></h1>
 
-     <figure>
+     <figure  class="highres">
         <img src="/img/<?php echo $filename . "_1200px.jpg" ?>" />
         <figcaption><?php echo $description ?></figcaption>
      </figure>
@@ -98,6 +98,12 @@ Choose one of the following files. Disable the other with a comment.
 <aside>
 <!-- the <aside> tag is the semantic tag for a sidebar or any sort of content related to whatever is in <main> -->
 </aside>
+
+<nav class="pagination">
+  <a href="previous.php">Previous</a>
+  <a href="next.php">Next</a>
+</nav>
+
 
    <!-- All javascript files are to be at the bottom to make the web site faster -->
 
