@@ -1,52 +1,22 @@
 <!doctype html>
- <html class="no-js" lang="">
+<html>
+<head>
+<meta charset="utf-8">
+</head>
+<body>
+<main>
 
- <head>
-   <meta charset="utf-8">
-   <meta http-equiv="x-ua-compatible" content="ie=edge">
-   <link rel="canonical" href="" />
-   <title>Photo Gallery</title>
-   <meta name="description" content="Photo Gallery">
-   <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- for each image start here -->
+     <figure class="thumb">
 
-   <link rel="manifest" href="site.webmanifest">
-   <link rel="apple-touch-icon" href="icon.png">
-   <!-- Place favicon.ico in the root directory -->
+     <a href="{fileNameNoExtension}.php"><img src="img/{fileNameNoExtension}_200px.jpg" width="200" alt="{title}" /></a>
 
-   <link rel="stylesheet" href="css/normalize.css">
-   <link rel="stylesheet" href="css/main.css">
- </head>
+     <figcaption>{description}</figcaption>
 
- <body>
+     </figure>
 
-   <nav>
-     <!-- head ends here -->
+<!-- for each image ends here -->
 
-
-
-     <!-- for each image start here -->
-
-      <li><a href="{fileNameNoExtension}.php"><img src="img/{fileNameNoExtension}.jpg" width="200" alt="{title}"></a></li>
-
-   <!-- for each image ends here -->
-
-
-   <!-- foot starts here -->
-   </nav>
-
-
-<h1>Photo Gallery</h1>
-
-   <main>
-
-<h2>Some other content would go on the page here</h2>
-
-
-
-   </main>
-
-
-
- </body>
-
+</main>
+</body>
 </html>
