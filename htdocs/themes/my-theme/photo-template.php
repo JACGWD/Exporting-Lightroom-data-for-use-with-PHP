@@ -83,6 +83,11 @@ Choose one of the following files. Disable the other with a comment.
    <![endif]-->
 
 
+   <header>
+   Branding goes here.
+   </header>
+
+
    <main>
      <!-- Main tag holds the main part of the content of the page. What is important goes here -->
      <!-- This is just sample content. Add your own content here. But do read the links, they are important. -->
@@ -104,6 +109,10 @@ Choose one of the following files. Disable the other with a comment.
   <a href="next.php">Next</a>
 </nav>
 
+
+<footer>
+&copy; Your Name, 2019. All rights reserved for published and non-published works.
+</footer>
 
    <!-- All javascript files are to be at the bottom to make the web site faster -->
 
