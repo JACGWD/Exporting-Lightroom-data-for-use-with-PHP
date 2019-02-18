@@ -14,6 +14,9 @@ $filenameExt="{fileName}";
 
 $h1="{title}";
 
+$previous = "somepage.php";
+$next = "anotherpage.php";
+
 // Call the template last to insert the above values into it.
 require_once ("themes/my-theme/photo-template.php");
 
